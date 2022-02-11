@@ -1,5 +1,6 @@
 class Pet
   attr_reader :name, :species
+  
   def initialize(species, name)
     @species = species
     @name = name
